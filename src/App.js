@@ -8,6 +8,7 @@ import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
 import Particles from 'react-particles-js';
+import Credits from './components/Credits/Credits';
 
 const particlesOptions = {
   particles : { 
@@ -139,6 +140,7 @@ class App extends Component {
            : <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/> 
           )
         }
+        <Credits />
       </div>
     );
   }
