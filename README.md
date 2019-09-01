@@ -8,3 +8,4 @@ body parser
 bcrypt-nodejs
 cors
 knex
+
